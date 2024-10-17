@@ -1,0 +1,51 @@
+.filtres {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 50px;
+	width: auto;
+}
+
+.filtres-btn {
+	margin-left: 10px;
+	border: 1px solid #1D6154;
+	border-radius: 60px;
+	font-size: 1.15em;
+	color: #1D6154;
+	background-color: rgb(246, 246, 235);
+	padding: 7px 15px;
+	cursor: default;
+}
+
+.flitre-actif {
+	color: #FFFFFF !important;
+	background-color: #1D6154 !important;
+}
+
+.flitre-none {
+	display: none;
+}
+
+
+.container-modifier:hover {
+	color: #B1663C;
+}
+
+
+.container-modifier {
+	visibility: visible;
+	display: flex;
+	margin-top: 8px;
+	margin-left: 30px;
+	cursor: pointer;
+	height: 25px;
+	gap: 10px;
+}
+
+
+.Projet {
+	display: flex;
+	justify-content: center;
+	margin-left: 80px;
+	padding: 80px 0 15px 0;
+}
